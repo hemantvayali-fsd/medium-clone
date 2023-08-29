@@ -1,5 +1,5 @@
 import { DataSource } from 'typeorm';
-console.log(__dirname);
+
 export default new DataSource({
   type: 'postgres',
   host: 'localhost',
